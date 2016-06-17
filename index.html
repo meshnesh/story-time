@@ -1,60 +1,66 @@
 <!doctype html>
 <html class="no-js" lang="en" dir="ltr">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Story Time</title>
-    <link rel="stylesheet" href="css/foundation.css">
-    <!--<link rel="stylesheet" href="css/app.css">-->
-  </head>
-  <body>
-<section id="navigation">
+    <!--    <link rel="stylesheet" href="css/foundation.css">-->
+    <link rel="stylesheet" href="css/app.css">
+</head>
 
-    <!--------------NAVIGATION BAR---------------->
+<body>
 
-    <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
-        <button class="menu-icon" type="button" data-toggle></button>
-        <div class="title-bar-title">Menu</div>
-    </div>
+    <section id="navigation">
 
-    <div class="top-bar" id="example-menu">
-        <div class="top-bar-left">
-            <ul class="dropdown menu" data-dropdown-menu>
-                <li class="menu-text">Story time</li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li>
-                    <a href="#">Stories</a>
-                    <ul class="menu vertical">
-                        <li><a href="#">First story</a></li>
-                        <li><a href="#">Second story</a></li>
-                        <li><a href="#">Third story</a></li>
+        <!--------NAVIGATION SECTION ------->
+
+        <nav class="nav ">
+            <div class="nav-center">
+                <a class="toggle-nav" href="#">&#9776;</a>
+
+                <div class="nav-mobile">
+                    <ul class="left">
+                        <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+                        <li><a href="#screen2"><i class="fa fa-user"></i> About</a></li>
+                        <li><a href="menu.html"><i class="fa fa-fire"></i> Stories</a></li>
+                        <li>
+                            <a href="#screen3"><i class="fa fa-envelope"></i>Contact </a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-location-arrow"></i> Location</a>
+                        </li>
                     </ul>
-                </li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+                </div>
+            </div>
+        </nav>
+        <!--END OF NAVIGATION-->
+
+
+        <p id="skill" class="mad-skillz" data-content="">
+            The stories have:
+        </p>
+    </section>
+
+    <section id="about">
+        <div class="row">
+            <div class="small-6 large-centered columns">
+                <p>
+                    Story time is a website thats seeks to educate all people in the world throught the fork tales and short stories that were once told in the vast land of Africa. Usually the stories are meant to prepare young people for life, and so taught a lesson or moral.
+                </p>
+            </div>
         </div>
-    </div>
+    </section>
 
-    <!------------END OF NAVIGATION BAR------------>
-</section>
+    <section id="chat">
 
-<section id="welcome">
-
-</section>
-
-<section id="about">
-
-</section>
-
-<section id="chat">
-
-</section>
+    </section>
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
-  </body>
+</body>
+
 </html>

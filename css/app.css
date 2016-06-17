@@ -1,0 +1,116 @@
+/*
+body {
+    background: #164812;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 50px;
+}
+*/
+
+.mad-skillz:after {
+    content: attr(data-content);
+}
+
+p {
+    color: #000;
+    text-align: center;
+    font-size: 7em;
+}
+
+
+/* Navigation Settings */
+
+nav {
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 70px;
+    background: #fff;
+}
+
+nav li {
+    display: inline-block;
+    padding: 24px 10px;
+}
+
+nav li a {
+    color: #757575;
+    text-transform: uppercase;
+}
+
+.toggle-nav {
+    display: none;
+}
+
+.nav-mobile style {
+    display: block;
+}
+
+
+/*END OF NAVIGATION*/
+
+
+/****************************MEDIA QUERIES************************************/
+
+@media only screen and (max-width: 768px) {
+    .nav li {
+        font-size: 14px;
+        float: left;
+        padding-left: 0%;
+        margin-left: 7%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .toggle-nav {
+        display: block;
+        padding: 10px;
+        position: absolute;
+        right: 10px;
+        line-height: 30px;
+    }
+    .toggle-nav:after {
+        content: ' Menu';
+    }
+    .nav-mobile {
+        display: none;
+    }
+    .style-mobile {
+        background: #ffffff;
+        top: 51px;
+        position: absolute;
+        width: 100%;
+    }
+    .style-mobile li {
+        display: block;
+        width: 100%;
+    }
+    .nav {
+        top: 0;
+        display: block;
+        float: none;
+        margin: 0em;
+    }
+}
+
+
+/*
+@media only screen and (max-width: 641px) {
+    .nav-mobile {
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    p {
+        margin-top: 60%;
+        text-align: center;
+        font-size: 4em;
+    }
+}
+*/
+
+
+/*********MEDIA QUERY END**********/
