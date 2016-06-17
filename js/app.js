@@ -1,22 +1,7 @@
 $(document).ready(function () {
     var skillz = [
-  '...'
-
-
-
-        
-        , 'A moral lesson'
-
-
-
-        
-        , 'A lesson to learn'
-
-
-
-        
-        , 'Prepearation for life'
-];
+        '...', 'incredible', 'history', ' an epitome', 'entertaining', 'culture', 'HOME'
+    ];
 
     var skillCount = 0;
 
