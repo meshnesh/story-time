@@ -10,6 +10,13 @@ p {
     /*    font-size: 2em;*/
 }
 
+h3 {
+    padding-top: 8%;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
 
 /*************************END OF GENERAL STYLING*******************/
 
@@ -75,11 +82,12 @@ nav li a {
 }
 
 .small-10 {
-    padding-top: 15vh;
+    padding-top: 10%;
+    width: 92.33333%;
 }
 
 .small-10 p {
-    font-size: 2em;
+    font-size: 1.8em;
 }
 
 
@@ -89,7 +97,17 @@ nav li a {
 /************CHAT SECTION************/
 
 #chat {
+    padding: 5%;
+    height: 80vh;
     background-color: forestgreen;
+}
+
+form {
+    margin-bottom: 5%;
+}
+
+textarea {
+    text-align: center;
 }
 
 
