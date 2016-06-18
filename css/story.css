@@ -1,0 +1,132 @@
+/****************************NAV BAR************************************/
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    min-height: 50px;
+    height: 70px;
+    background: #fff;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    padding: 24px 10px;
+}
+
+nav li a {
+    color: #757575;
+    text-transform: uppercase;
+}
+
+.toggle-nav {
+    display: none;
+}
+
+.nav-mobile style {
+    display: block;
+}
+
+
+/*********NAV BAR END**********/
+
+/************************STORY SECTION**********************/
+#story{
+    height: 90vh;
+    margin-top: 15%;
+}
+
+.firstcharacter {
+    float: left;
+    color: #903;
+    font-size: 100px;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+    font-family: Georgia;
+}
+/************************END OF STORY SECTION*************/
+
+
+/******************FOOTER SECTION*****************/
+
+#footer{
+    /*bottom: 0px;*/
+    background-color: darkolivegreen;
+    height: 10%;
+    padding-top: 2%;
+    text-align: center;
+}
+
+
+/*************END OF FOOTER SECTION**************/
+
+/******************NAVIGATION MEDIA QUERY*************/
+
+/****************************MEDIA QUERIES************************************/
+
+@media only screen and (max-width: 768px) {
+    .nav li {
+        font-size: 14px;
+        float: left;
+        padding-left: 0%;
+        margin-left: 7%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .toggle-nav {
+        display: block;
+        padding: 10px;
+        position: absolute;
+        right: 10px;
+        line-height: 30px;
+    }
+    .toggle-nav:after {
+        content: ' Menu';
+    }
+    .nav-mobile {
+        display: none;
+    }
+    .style-mobile {
+        background: #ffffff;
+        top: 51px;
+        position: absolute;
+        width: 100%;
+    }
+    .style-mobile li {
+        display: block;
+        width: 100%;
+    }
+    .nav {
+        top: 0;
+        display: block;
+        float: none;
+        margin: 0em;
+    }
+}
+
+/******************END OF NAV MEDIA QUERY************/
+
+/****************************MEDIA QUERIES************************************/
+
+@media only screen and (max-width: 1024px) {
+    #footer {
+        background-color: darkolivegreen;
+        height: 10%;
+        padding-top: 3%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    #footer {
+        background-color: darkolivegreen;
+        height: 16%;
+        padding-top: 5%;
+        text-align: center;
+    }
+}
+/*********MEDIA QUERY END**********/
