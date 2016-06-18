@@ -34,7 +34,8 @@ nav li a {
 /************************STORY SECTION**********************/
 #story{
     height: 90vh;
-    margin-top: 15%;
+    margin-top: 5%;
+    padding-top: 10%;
 }
 
 .firstcharacter {
@@ -114,6 +115,7 @@ nav li a {
 
 @media only screen and (max-width: 1024px) {
     #footer {
+
         background-color: darkolivegreen;
         height: 10%;
         padding-top: 3%;
@@ -121,11 +123,55 @@ nav li a {
     }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 768px) {
+
     #footer {
+        /*height: 90vh;*/
+        margin-top: 10%;
+        padding-top: 3%;
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+    #story {
+        height: 90vh;
+        margin-top: 10%;
+        padding-top: 10%;
+    }
+    #footer {
+        margin-top: 107%;
         background-color: darkolivegreen;
-        height: 16%;
+        height: 10%;
         padding-top: 5%;
+        text-align: center;
+    }
+}
+
+
+
+@media only screen and (max-width: 375px) {
+    #footer {
+        margin-top: 150%;
+        background-color: darkolivegreen;
+        height: 10%;
+        padding-top: 5%;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+
+    #story{
+        margin-top: 15%;
+    }
+
+    #footer {
+        margin-top: 240%;
+        background-color: darkolivegreen;
+        height: 10%;
+        padding-top: 7%;
         text-align: center;
     }
 }
